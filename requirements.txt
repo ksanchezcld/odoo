@@ -19,7 +19,7 @@ Jinja2==2.10.1; python_version < '3.8'
 Jinja2==2.11.2; python_version >= '3.8'
 libsass==0.17.0
 lxml==3.7.1 ; sys_platform != 'win32' and python_version < '3.7'
-lxml==4.3.2 ; sys_platform != 'win32' and python_version == '3.7'
+lxml==4.9.1 ; sys_platform != 'win32' and python_version == '3.7'
 lxml==4.6.1 ; sys_platform != 'win32' and python_version > '3.7'
 lxml ; sys_platform == 'win32'
 Mako==1.0.7
@@ -55,3 +55,4 @@ xlrd==1.1.0; python_version < '3.8'
 xlrd==1.2.0; python_version >= '3.8'
 pypiwin32 ; sys_platform == 'win32'
 pyopenssl==19.0.0
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
